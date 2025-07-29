@@ -20,6 +20,6 @@ jobs:
     - name: Python Version 
       run: python -V 
 
-    #- name: S3 TEESINGH! Contents
-    #  run: aws s3 ls s3://teesingh1 # Change this to your bucket name
+    - name: S3 TEESINGH! Contents
+      run: aws s3 ls s3://teesingh1 # Change this to your bucket name
 
